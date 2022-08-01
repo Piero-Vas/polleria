@@ -1,0 +1,68 @@
+.cover{
+ display: flex;  
+ margin: 10px 50px; 
+}
+
+.media_cover video{
+    width: 100%;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+.text__information-cover h1 {
+    font-size: 50px;
+    color: #192a56;;
+}
+.text__information-cover p {
+    font-size: 18px;
+    margin-top: 45px;
+    margin-right: 40px;
+    padding: 0 20px;
+    text-align: justify;
+    
+}
+video {
+    object-fit: contain;
+}
+.buttons__cover {
+    display: flex;
+    align-items: flex-end;
+    margin-top: 50px;
+}
+.btn__register-cover {
+    padding: 14px 50px;
+    border: none;
+    background: #f88e24;
+    border-radius: 10px;
+    color: white;
+    font-weight: 500;
+    font-size: 16px;
+    cursor: pointer;
+}
+.icons-container{
+    display: flex;
+
+    width:auto;
+    gap:1rem;
+    flex-wrap: wrap;
+    padding:1rem 0;
+    margin:20px 50px;
+}
+.icons-container .icons{
+    background:#eee;
+    border-radius: .5rem;
+    border:.1rem solid rgba(0,0,0,.2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:1rem;
+    flex:1 1 17rem;
+    padding:1.5rem 1rem;
+}
+.icons-container .icons i{
+    font-size: 2.5rem;
+    color:var(--green);
+}
+.icons-container .icons span{
+    font-size: 1.5rem;
+    color:var(--black);
+}

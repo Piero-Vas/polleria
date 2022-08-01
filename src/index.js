@@ -3,11 +3,20 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import NavBar from './components/Navbar';
+import Products from './components/Products';
+import CheckoutPage from './components/CheckoutPage';
+import { StateProvider } from './components/StateProvider';
+import reducer, { initialState } from './reducer';
+import Router from './router';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <StateProvider initialState={initialState} reducer={reducer}>
+      
+      <Router/>
+    </StateProvider>
   </React.StrictMode>
 );
 
