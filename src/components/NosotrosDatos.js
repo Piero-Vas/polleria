@@ -6,15 +6,15 @@ const NosotrosDatos = () => {
             <div class="icons-container">
                 <div class="icons">
                     <i class="fas fa-shipping-fast"></i>
-                    <span>free delivery</span>
+                    <span>Delivery Gratis</span>
                 </div>
                 <div class="icons">
                     <i class="fas fa-dollar-sign"></i>
-                    <span>easy payments</span>
+                    <span>Pagos faciles</span>
                 </div>
                 <div class="icons">
                     <i class="fas fa-headset"></i>
-                    <span>24/7 service</span>
+                    <span>servicios 24/7</span>
                 </div>
             </div>
            

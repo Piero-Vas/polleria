@@ -26,7 +26,7 @@ const Ofertas = () => {
 
     <Card sx={{marginRight:3}}>
       <CardHeader
-        sx={{height:80,}}
+        sx={{height:120,}}
         title={<Grid container justifyContent="space-between" alignItems="flex-start" >
           <Grid item xs={8} >
           <Typography 
@@ -65,7 +65,7 @@ const Ofertas = () => {
       </div>
     </Card><Card sx={{marginRight:3}}>
       <CardHeader
-        sx={{height:80,}}
+        sx={{height:120,}}
         title={<Grid container justifyContent="space-between" alignItems="flex-start" >
           <Grid item xs={8} >
           <Typography 
@@ -104,7 +104,7 @@ const Ofertas = () => {
       </div>
     </Card><Card sx={{marginRight:3}}>
       <CardHeader
-        sx={{height:80,}}
+        sx={{height:120,}}
         title={<Grid container justifyContent="space-between" alignItems="flex-start" >
           <Grid item xs={8} >
           <Typography 
@@ -144,7 +144,7 @@ const Ofertas = () => {
     </Card>
     <Card sx={{marginRight:3}}>
       <CardHeader
-        sx={{height:80,}}
+        sx={{height:120,}}
         title={<Grid container justifyContent="space-between" alignItems="flex-start" >
           <Grid item xs={8} >
           <Typography 

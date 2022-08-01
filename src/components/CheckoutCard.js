@@ -10,6 +10,7 @@ import Typography from '@mui/material/Typography';
 import { Grid, Icon } from '@mui/material';
 import { actionTypes } from '../reducer';
 import { useStateValue } from './StateProvider';
+import '../styles/Product.scss'
 export default function CheckoutCard({item:{id,nombre,precio,descripcion,imagen,}}) {
   const [{pollos},dispatch] = useStateValue();
   const deleteToPollos = () =>
@@ -54,13 +55,14 @@ export default function CheckoutCard({item:{id,nombre,precio,descripcion,imagen,
         {descripcion}
         </Typography>
       </CardContent>
+      <div className='carrito'>
       <CardActions disableSpacing>
         <IconButton aria-label="add to favorites" onClick={deleteToPollos}>
           <Icon>delete</Icon>
         </IconButton>
         
       </CardActions>
-      
+      </div>
     </Card>
   );
 }
