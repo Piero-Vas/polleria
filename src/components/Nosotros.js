@@ -21,7 +21,7 @@ const Nosotros = () => {
             </div>
             <div className='media_cover'>
                 
-            <video src={video} autoplay playinline loop muted preload="auto"></video>
+            <video src={video} autoPlay playinline loop muted preload="auto"></video>
             </div>
             </div>
         </div>
