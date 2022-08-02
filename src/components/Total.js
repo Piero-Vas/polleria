@@ -11,8 +11,8 @@ const Total = () => {
   return (
     <div className='container'>
       <div className='datos'>
-        <h5>Total Items: {pollos?.length}</h5>
-        <h5>S/.{ Math.round(cantidad)}</h5>
+        <h5>Total Items:  {pollos?.length}</h5><br></br>
+        <h5>Total a Pagar :  S/.{ Math.round(cantidad)}</h5>
         </div>
         <div className='boton'>
         <a >Pagar</a>
